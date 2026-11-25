@@ -1,0 +1,504 @@
+{
+  "profiles": [
+    {
+      "id": "1f471949-6b42-42c9-b1d6-d07dd70b507f",
+      "email": "explorer-1f4719@whatif.universe",
+      "display_name": "Explorer",
+      "password_salt": "073669c14f014531ede1146eab3c9d37",
+      "password_hash": "41b44b7c4f42b4e9ab01b6c11a76b82db3d259d1cbacf178faf80631dadbdbf3f9f440f8b2ea592e5f5bc7dda0cc55aee36808c3461c893593b0fdc5dda0f3c7",
+      "is_guest": true,
+      "preferred_narrator": "Noir Auteur",
+      "stories_completed": 0,
+      "total_decisions": 0,
+      "created_at": "2026-11-25T08:28:06.426Z"
+    }
+  ],
+  "stories": [
+    {
+      "id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "user_id": "e94df717-7e75-483f-bac4-fe69d23db8a3",
+      "template_id": null,
+      "title": "Midnight Signal Verification",
+      "genre": "Mystery",
+      "custom_topic": "A vanished radio operator leaves a coded broadcast on a stormy pier.",
+      "protagonist_name": "Elena Vance",
+      "protagonist_personality": "Observant and calm",
+      "protagonist_background": "Archivist",
+      "character_style_image": null,
+      "narrator_personality": "Noir Auteur",
+      "difficulty": "Balanced",
+      "story_length": "Short",
+      "perspective": "Second-Person",
+      "atmosphere": "Rain-slicked noir",
+      "setting_mode": "Realistic",
+      "cover_image": "/src/assets/images/hero_midnight_express_1795593631862.jpg",
+      "is_public": false,
+      "status": "in_progress",
+      "ending_type": null,
+      "ending_epilogue": null,
+      "rolling_summary": "Archivist Elena Vance entered Pier 14 Harbor Radio Shack to investigate Arthur Pike's 23:42 disappearance, quietly pocketing a brass key for Locker 7 from beneath his spilled mug. Stopping the reel-to-reel deck revealed a hurried first-aid tape splice joining modern tape to 1988 oxide stock with Track B half-engaged, while Nyx Corvus confirmed Breakwater Buoy 4 is still transmitting the 04-19-88 loop independently. Kaelen Mercer angrily ordered Elena off the console, his dry boots and nervous glance toward the rear lockers deepening suspicion around his patrol alibi.",
+      "created_at": "2026-11-25T10:13:22.773Z",
+      "updated_at": "2026-11-25T10:13:54.356Z"
+    }
+  ],
+  "story_branches": [
+    {
+      "id": "8502fc21-f884-40e3-b0e0-9c7ab46bb263",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "parent_branch_id": null,
+      "branch_name": "Primary Timeline",
+      "origin_scene_id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "is_active": true,
+      "created_at": "2026-11-25T10:13:22.773Z"
+    }
+  ],
+  "story_scenes": [
+    {
+      "id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "branch_id": "8502fc21-f884-40e3-b0e0-9c7ab46bb263",
+      "parent_scene_id": null,
+      "chapter_number": 1,
+      "scene_number": 1,
+      "scene_title": "Dead Air on Pier 14",
+      "narrative_paragraphs": [
+        {
+          "type": "prose",
+          "text": "Rain hammers the corrugated tin roof of the Pier 14 signal shack like handfuls of gravel, turning the black harbor water beyond the smeared glass into a sheet of hammered lead. You stand beside the oak dispatch desk, keeping your coat dry as best you can while your eyes catalog what the storm did not touch: an overturned ceramic mug, a cooling ring of black coffee, and a reel-to-reel deck spinning a slow, hypnotic loop under a buzzing amber bulb."
+        },
+        {
+          "type": "prose",
+          "text": "Arthur Pike, the harbor's senior radio archivist and your only living link to the 1988 maritime manifests, vanished forty minutes before midnight. His wool cap is gone, yet his logbook lies splayed open to a half-written timestamp at 23:42. From the tin speaker above the console, a three-note chime cuts through the static, followed by Pike's tight, dry voice reciting four numbers on endless repeat."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Kaelen Mercer",
+          "text": "That tape has been cycling since I unlocked the outer padlock. Nobody came through the north turnstile after ten, Ms. Vance. If Arthur walked out, he swam."
+        },
+        {
+          "type": "action",
+          "text": "Kaelen Mercer, the harbor security chief, steps in from the threshold, shaking rainwater from his slicker. Across the room, signal technician Nyx Corvus leans over the oscilloscope, adjusting a copper dial with gloved fingers as a jagged green wave pulses across the phosphor screen."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Nyx Corvus",
+          "text": "He did not swim, Mercer. Look at the carrier drift. This isn't just playback on the deck. Someone is bouncing an open relay off the breakwater buoy."
+        },
+        {
+          "type": "thought",
+          "text": "As an archivist, you know the rhythm of forged paperwork and staged rooms. The mug fell toward the window, not the door, and tucked half-under its rim glints the notched tooth of a salt-crusted brass key stamped LOCKER 7. Neither Kaelen nor Nyx seems to have spotted it yet."
+        }
+      ],
+      "current_location": "Pier 14 Harbor Radio Shack",
+      "atmosphere_mood": "mysterious",
+      "camera_motion": "slow-push",
+      "scene_image": "/src/assets/images/hero_midnight_express_1795593631862.jpg",
+      "situation_summary": {
+        "where": "Inside the cramped, rain-lashed Pier 14 Harbor Radio Shack overlooking the dark breakwater.",
+        "who_is_present": [
+          "Elena Vance",
+          "Kaelen Mercer",
+          "Nyx Corvus"
+        ],
+        "what_happened": "Senior radio operator Arthur Pike vanished at 23:42, leaving a looping coded broadcast and an open logbook behind a locked outer gate.",
+        "what_you_know": "The broadcast repeats a chime and four numbers, a breakwater relay may be active, and a hidden brass key for Locker 7 rests under an overturned mug."
+      },
+      "characters_present": [
+        {
+          "name": "Elena Vance",
+          "role": "Archivist & Investigator",
+          "emotion": "calm",
+          "stage_position": "center",
+          "movement_action": "idle",
+          "dialogue_line": "Everyone stay clear of the desk until we know what he left behind.",
+          "relationship_delta": 0,
+          "personality": "Observant, methodical, unruffled under pressure",
+          "motivation": "Uncover what happened to Arthur Pike and retrieve the missing 1988 maritime records",
+          "dialogue_style": "Measured and crisp",
+          "secret_hint": "You recognize the chime melody from an old sealed archive reel.",
+          "avatar_key": "protagonist"
+        },
+        {
+          "name": "Kaelen Mercer",
+          "role": "Harbor Security Chief",
+          "emotion": "guarded",
+          "stage_position": "right",
+          "movement_action": "step_forward",
+          "dialogue_line": "Nobody came through the north turnstile after ten, Ms. Vance.",
+          "relationship_delta": 0,
+          "personality": "Territorial, blunt, quick to close ranks",
+          "motivation": "Keep port authority scrutiny off his night-shift security logs",
+          "dialogue_style": "Gruff, clipped baritone",
+          "secret_hint": "His boots are dry at the heel despite claiming he just patrolled the east pier.",
+          "avatar_key": "kaelen"
+        },
+        {
+          "name": "Nyx Corvus",
+          "role": "Night-Shift Signal Technician",
+          "emotion": "tense",
+          "stage_position": "left",
+          "movement_action": "lean_in",
+          "dialogue_line": "Someone is bouncing an open relay off the breakwater buoy.",
+          "relationship_delta": 0,
+          "personality": "Sharp-eared, restless, skeptical of brass",
+          "motivation": "Trace the unauthorized breakwater carrier before the Coast Guard sweeps the band",
+          "dialogue_style": "Rapid, technical, low-voiced",
+          "secret_hint": "She already disconnected the main landline phone before you arrived.",
+          "avatar_key": "nyx"
+        }
+      ],
+      "events": [
+        "Arrived at Pier 14 Harbor Radio Shack during the midnight squall",
+        "Discovered Arthur Pike missing mid-entry while his coded tape loops on air",
+        "Nyx detected an active carrier bounce off the offshore breakwater buoy"
+      ],
+      "consequences": [
+        "Both Mercer and Corvus are watching your first move inside the cramped shack."
+      ],
+      "current_objective": "Examine the radio shack for immediate physical evidence before the Coast Guard or harbor patrol seals Pier 14.",
+      "available_decisions": [
+        {
+          "id": "dec_1_rewind_tape",
+          "text": "Stop the reel-to-reel deck and inspect the magnetic tape for a splice or hidden B-side track.",
+          "consequence_hint": "May reveal an unedited message before the loop, though stopping the broadcast will alert whoever is listening.",
+          "intent_tag": "Investigate"
+        },
+        {
+          "id": "dec_1_palm_key",
+          "text": "Wait until Kaelen turns toward the rattling shutter, then quietly slip the Locker 7 brass key into your coat pocket.",
+          "consequence_hint": "Secures a private lead without tipping off harbor security, if your sleight of hand goes unseen.",
+          "intent_tag": "Stealth"
+        },
+        {
+          "id": "dec_1_confront_mercer",
+          "text": "Press Kaelen Mercer on how the outer padlock was locked from the outside and why his heels are dry.",
+          "consequence_hint": "Forces Mercer onto the defensive early, risking his hostility but exposing gaps in his alibi.",
+          "intent_tag": "Confront"
+        },
+        {
+          "id": "dec_1_ally_nyx",
+          "text": "Step over to Nyx Corvus at the oscilloscope and ask her to triangulate the breakwater buoy relay.",
+          "consequence_hint": "Builds technical rapport with Nyx and pinpoints where the live signal is actually going.",
+          "intent_tag": "Persuade"
+        },
+        {
+          "id": "dec_1_inspect_logbook",
+          "text": "Lean over the oak desk to examine Pike's half-written 23:42 log entry and check the blotter for torn pages.",
+          "consequence_hint": "An archivist's eye may catch erased pencil impressions or coded shorthand in the margins.",
+          "intent_tag": "Inspect"
+        }
+      ],
+      "chosen_decision_text": "Stop the reel-to-reel deck and inspect the magnetic tape for a splice or hidden B-side track.",
+      "is_custom_action": false,
+      "is_ending": false,
+      "ending_type": null,
+      "ending_epilogue": null,
+      "created_at": "2026-11-25T10:13:22.773Z"
+    },
+    {
+      "id": "d04c58f5-2f0e-4a5d-a3a9-2689593fc5ad",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "branch_id": "8502fc21-f884-40e3-b0e0-9c7ab46bb263",
+      "parent_scene_id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "chapter_number": 1,
+      "scene_number": 2,
+      "scene_title": "Ghost on the Oxide",
+      "narrative_paragraphs": [
+        {
+          "type": "action",
+          "text": "You press the heavy brass stop lever on the reel-to-reel deck. The pinch roller snaps back with a sharp mechanical clack, cutting Arthur Pike's voice mid-syllable and dropping the shack into a sudden hollow silence filled only by rain hammering the tin roof."
+        },
+        {
+          "type": "prose",
+          "text": "Pinching the slack magnetic ribbon between your gloved thumb and forefinger, you draw six inches of tape up toward the buzzing amber bulb. Four inches past the foil sensing strip, someone has made a frantic razor cut and bridged the gap with a jagged square of white cloth first-aid tape. It joins modern glossy black polymer to dull, rust-brown oxide stock from the late eighties, and the deck's Track B selector sits nudged halfway into engagement."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Kaelen Mercer",
+          "text": "Hands off the console, Vance. You want to explain to the Coast Guard cutter why you contaminated an active distress loop?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Nyx Corvus",
+          "text": "Shut up and look at the scope, Mercer. The deck is dead, yet Breakwater Buoy 4 is still spitting that exact 04-19-88 chime back into our receiver."
+        },
+        {
+          "type": "thought",
+          "text": "You let the spliced ribbon settle gently over the guide post, keeping the salt-pitted Locker 7 key palmed inside your coat pocket. Kaelen's gaze flicks for a fraction of a second toward the row of rusted steel lockers along the back wall, and beneath the glare of the desk lamp, his heavy boot heels remain unmistakably bone-dry."
+        }
+      ],
+      "current_location": "Pier 14 Harbor Radio Shack",
+      "atmosphere_mood": "tense",
+      "camera_motion": "slow-push",
+      "scene_image": "/src/assets/images/hero_midnight_express_1795593631862.jpg",
+      "situation_summary": {
+        "where": "Pier 14 Harbor Radio Shack, beside the oak dispatch desk and signal console",
+        "who_is_present": [
+          "Elena Vance",
+          "Nyx Corvus",
+          "Kaelen Mercer"
+        ],
+        "what_happened": "You halted the reel-to-reel deck and uncovered a hurried medical-tape splice joining modern black tape to older 1988 brown oxide stock, while Nyx proved the offshore buoy signal is transmitting independently of the shack deck.",
+        "what_you_know": "You possess the Brass Key tagged Locker 7, the 04-19-88 chime is originating from Breakwater Buoy 4 rather than this tape alone, Kaelen's boots are dry despite his patrol story, and Nyx already disconnected the main landline."
+      },
+      "characters_present": [
+        {
+          "name": "Nyx Corvus",
+          "role": "Night-Shift Signal Technician",
+          "emotion": "alarmed",
+          "stage_position": "left",
+          "movement_action": "lean_in",
+          "dialogue_line": "The deck is dead, yet Breakwater Buoy 4 is still spitting that exact 04-19-88 chime.",
+          "relationship_delta": 8,
+          "relationship_reason": "Your tape check unintentionally proved her offshore carrier theory in front of Kaelen.",
+          "personality": "Sharp-eared, restless, skeptical of brass",
+          "motivation": "Trace the unauthorized breakwater carrier before the Coast Guard sweeps the band",
+          "dialogue_style": "clipped and urgent",
+          "secret_hint": "She keeps glancing at the unplugged telephone jack beneath her stool.",
+          "avatar_key": "nyx"
+        },
+        {
+          "name": "Elena Vance",
+          "role": "Archivist & Investigator",
+          "emotion": "calm",
+          "stage_position": "center",
+          "movement_action": "idle",
+          "relationship_delta": 0,
+          "personality": "Observant, methodical, unruffled under pressure",
+          "motivation": "Uncover what happened to Arthur Pike and retrieve the missing 1988 maritime records",
+          "dialogue_style": "measured",
+          "secret_hint": "The rust-brown oxide tape matches the 1988 archival stock sealed at the Maritime Hall.",
+          "avatar_key": "protagonist"
+        },
+        {
+          "name": "Kaelen Mercer",
+          "role": "Harbor Security Chief",
+          "emotion": "suspicious",
+          "stage_position": "right",
+          "movement_action": "confront",
+          "dialogue_line": "Hands off the console, Vance. That loop is harbor security property until the cutter docks.",
+          "relationship_delta": -6,
+          "relationship_reason": "He resents you touching the equipment and exposing an anomaly he cannot explain.",
+          "personality": "Territorial, blunt, quick to close ranks",
+          "motivation": "Keep port authority scrutiny off his night-shift security logs",
+          "dialogue_style": "gruff and territorial",
+          "secret_hint": "He briefly checked the rear locker bank when you mentioned the splice.",
+          "avatar_key": "kaelen"
+        }
+      ],
+      "events": [
+        "Elena halted the reel-to-reel playback, silencing Pike's voice inside the shack.",
+        "Inspection revealed a white first-aid tape splice joining modern polymer tape to 1988 brown oxide stock with Track B half-engaged.",
+        "Nyx confirmed Breakwater Buoy 4 continues broadcasting the 04-19-88 signal independently of the shack's deck."
+      ],
+      "consequences": [
+        "Kaelen Mercer grows defensive and suspicious of your interference with the console.",
+        "Nyx Corvus gains respect for your methodical instinct and shares the live buoy telemetry.",
+        "You now know Pike spliced an older 1988 recording into the loop shortly before vanishing."
+      ],
+      "current_objective": "Inspect the Track B recording and test Locker 7 or Kaelen's alibi before harbor patrol seals the shack.",
+      "available_decisions": [
+        {
+          "id": "play_track_b_headphones",
+          "text": "Engage Track B fully and ask Nyx to feed the spliced 1988 segment exclusively through her headphones so Kaelen cannot hear it.",
+          "consequence_hint": "May reveal hidden 1988 audio while deepening your alliance with Nyx and irritating Kaelen.",
+          "intent_tag": "Investigate"
+        },
+        {
+          "id": "check_first_aid_and_locker7",
+          "text": "Cross to the back wall under the pretext of checking the first-aid kit for matching tape, and quietly test your brass key on Locker 7.",
+          "consequence_hint": "Risks Kaelen noticing the key you pocketed, but could expose what Pike locked away.",
+          "intent_tag": "Stealth"
+        },
+        {
+          "id": "confront_kaelen_dry_boots",
+          "text": "Call out Kaelen's dry boot heels and ask why he really wants the console left untouched before the Coast Guard arrives.",
+          "consequence_hint": "Puts heavy pressure on Kaelen and may force a slip, at the cost of open hostility.",
+          "intent_tag": "Confront"
+        },
+        {
+          "id": "inspect_logbook_and_buoy_bearing",
+          "text": "Leave the tape for a moment to compare Pike's unfinished 23:42 log entry against Nyx's Breakwater Buoy 4 telemetry.",
+          "consequence_hint": "Connects the timing of Pike's disappearance to the offshore transmitter without escalating the room.",
+          "intent_tag": "Inspect"
+        },
+        {
+          "id": "question_nyx_unplugged_phone",
+          "text": "Step beside Nyx's console and quietly ask why she disconnected the main landline phone before you got here.",
+          "consequence_hint": "Could rattle Nyx and uncover her hidden agenda before trusting her with the tape.",
+          "intent_tag": "Persuade"
+        }
+      ],
+      "chosen_decision_text": null,
+      "is_custom_action": false,
+      "is_ending": false,
+      "ending_type": null,
+      "ending_epilogue": null,
+      "created_at": "2026-11-25T10:13:54.356Z"
+    }
+  ],
+  "story_decisions": [
+    {
+      "id": "5539f5d8-98b9-45d8-8ed3-927dfc2aec25",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "scene_id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "next_scene_id": "d04c58f5-2f0e-4a5d-a3a9-2689593fc5ad",
+      "branch_id": "8502fc21-f884-40e3-b0e0-9c7ab46bb263",
+      "decision_id": "dec_1_rewind_tape",
+      "decision_text": "Stop the reel-to-reel deck and inspect the magnetic tape for a splice or hidden B-side track.",
+      "is_custom_action": false,
+      "consequence_summary": "Kaelen Mercer grows defensive and suspicious of your interference with the console.",
+      "created_at": "2026-11-25T10:13:54.356Z"
+    }
+  ],
+  "story_characters": [
+    {
+      "id": "bee0e641-157f-453a-83b5-a0fed1dee2e9",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "name": "Elena Vance",
+      "role": "Archivist & Investigator",
+      "personality": "Observant, methodical, unruffled under pressure",
+      "background": "",
+      "motivation": "Uncover what happened to Arthur Pike and retrieve the missing 1988 maritime records",
+      "dialogue_style": "Measured and crisp",
+      "relationship_score": 0,
+      "relationship_label": "Neutral",
+      "knowledge": [],
+      "secrets": [
+        "You recognize the chime melody from an old sealed archive reel.",
+        "The rust-brown oxide tape matches the 1988 archival stock sealed at the Maritime Hall."
+      ],
+      "memories": [
+        "First encounter"
+      ],
+      "avatar_url": "/src/assets/images/char_elena_vance_1795593638014.jpg",
+      "last_emotion": "calm",
+      "updated_at": "2026-11-25T10:13:54.356Z"
+    },
+    {
+      "id": "2212edc4-c843-42d2-963f-0223a4efb53f",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "name": "Kaelen Mercer",
+      "role": "Harbor Security Chief",
+      "personality": "Territorial, blunt, quick to close ranks",
+      "background": "",
+      "motivation": "Keep port authority scrutiny off his night-shift security logs",
+      "dialogue_style": "Gruff, clipped baritone",
+      "relationship_score": -6,
+      "relationship_label": "Neutral",
+      "knowledge": [],
+      "secrets": [
+        "His boots are dry at the heel despite claiming he just patrolled the east pier.",
+        "He briefly checked the rear locker bank when you mentioned the splice."
+      ],
+      "memories": [
+        "First encounter",
+        "Scene 2: He resents you touching the equipment and exposing an anomaly he cannot explain."
+      ],
+      "avatar_url": "/src/assets/images/char_kaelen_thorne_1795593638174.jpg",
+      "last_emotion": "suspicious",
+      "updated_at": "2026-11-25T10:13:54.356Z"
+    },
+    {
+      "id": "d7f3ffec-62c3-4143-b91e-7b132015fc06",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "name": "Nyx Corvus",
+      "role": "Night-Shift Signal Technician",
+      "personality": "Sharp-eared, restless, skeptical of brass",
+      "background": "",
+      "motivation": "Trace the unauthorized breakwater carrier before the Coast Guard sweeps the band",
+      "dialogue_style": "Rapid, technical, low-voiced",
+      "relationship_score": 8,
+      "relationship_label": "Warming",
+      "knowledge": [],
+      "secrets": [
+        "She already disconnected the main landline phone before you arrived.",
+        "She keeps glancing at the unplugged telephone jack beneath her stool."
+      ],
+      "memories": [
+        "First encounter",
+        "Scene 2: Your tape check unintentionally proved her offshore carrier theory in front of Kaelen."
+      ],
+      "avatar_url": "/src/assets/images/char_nyx_orlova_1795593682743.jpg",
+      "last_emotion": "alarmed",
+      "updated_at": "2026-11-25T10:13:54.356Z"
+    }
+  ],
+  "story_clues": [
+    {
+      "id": "3ae774a3-7a9b-489f-9d48-e48212af7c8d",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "scene_id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "item_type": "clue",
+      "title": "Looped Reel-to-Reel Broadcast (04-19-88)",
+      "description": "A three-tone chime followed by Arthur Pike's voice repeating 04-19-88-Pier-North, echoing faintly from an offshore relay.",
+      "status": "active",
+      "created_at": "2026-11-25T10:13:22.773Z"
+    },
+    {
+      "id": "6230e694-1710-48bd-a703-ec4d2134a8c1",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "scene_id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "item_type": "object",
+      "title": "Brass Key Tagged LOCKER 7",
+      "description": "A salt-pitted brass key half-concealed beneath Pike's overturned ceramic mug on the dispatch desk.",
+      "status": "active",
+      "created_at": "2026-11-25T10:13:22.773Z"
+    },
+    {
+      "id": "85bc8ff5-b78d-4d1c-82d8-9f6c7120c830",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "scene_id": "da825891-ea1e-4fd3-a9d6-4c98617c4791",
+      "item_type": "mystery",
+      "title": "The Locked-Room Disappearance",
+      "description": "Pike's log ends mid-sentence at 23:42 and the outer padlock was secured, yet the north turnstile sensor logged zero exits.",
+      "status": "active",
+      "created_at": "2026-11-25T10:13:22.773Z"
+    },
+    {
+      "id": "34f970ea-a33f-4692-a096-aba3c494d7e0",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "scene_id": "d04c58f5-2f0e-4a5d-a3a9-2689593fc5ad",
+      "item_type": "clue",
+      "title": "Medical-Tape Splice on 1988 Oxide Stock",
+      "description": "A hurried splice made with white cloth first-aid tape binds a brittle section of 1988 brown oxide tape into the loop, with the deck's Track B channel half-engaged.",
+      "status": "active",
+      "created_at": "2026-11-25T10:13:54.356Z"
+    },
+    {
+      "id": "3f11fa18-2f73-4e32-8cae-3a2527ffedd3",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "scene_id": "d04c58f5-2f0e-4a5d-a3a9-2689593fc5ad",
+      "item_type": "clue",
+      "title": "Independent Breakwater Buoy 4 Carrier",
+      "description": "Stopping the shack's tape deck did not interrupt the 04-19-88 broadcast on Nyx's spectrum monitor, proving an external relay on Breakwater Buoy 4 is transmitting.",
+      "status": "active",
+      "created_at": "2026-11-25T10:13:54.356Z"
+    }
+  ],
+  "story_progress": [
+    {
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "user_id": "e94df717-7e75-483f-bac4-fe69d23db8a3",
+      "current_branch_id": "8502fc21-f884-40e3-b0e0-9c7ab46bb263",
+      "current_scene_id": "d04c58f5-2f0e-4a5d-a3a9-2689593fc5ad",
+      "current_chapter": 1,
+      "current_scene_number": 2,
+      "current_location": "Pier 14 Harbor Radio Shack",
+      "current_objective": "Inspect the Track B recording and test Locker 7 or Kaelen's alibi before harbor patrol seals the shack.",
+      "progress_percent": 22,
+      "decisions_count": 1,
+      "updated_at": "2026-11-25T10:13:54.356Z"
+    }
+  ],
+  "saved_stories": [
+    {
+      "id": "0c09b813-e15c-4d9f-afa5-77844e7af7c4",
+      "user_id": "e94df717-7e75-483f-bac4-fe69d23db8a3",
+      "story_id": "b4d12916-ed81-4ff1-9ab8-1787c17ea538",
+      "note": "",
+      "created_at": "2026-11-25T10:13:54.506Z"
+    }
+  ],
+  "favourite_stories": []
+}
